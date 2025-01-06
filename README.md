@@ -64,7 +64,7 @@ Now open the terminal with `SUPER KEY + Q`
 
 1. Replace your .config to remove the warning
 
- `curl https://githubusercontent.com/hyprwm/Hyprland/main/example/hyprland.conf -o ~/.config/hypr/hyprland.conf`
+ `curl https://raw.githubusercontent.com/hyprwm/Hyprland/main/example/hyprland.conf -o ~/.config/hypr/hyprland.conf`
 
 1.5 Change your keyboard layout if it isn't US Qwerty
    
