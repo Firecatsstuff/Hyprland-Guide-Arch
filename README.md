@@ -52,7 +52,7 @@ Now you should see a terminal in your screen asking for as login,just enter your
 
 you should see a warning at the top with instructions how to get into the terminal.
 
-**Warning!:If pressing `Super Key + Q` doesn't bring you to the terminal,ptress `CTRL + ALT + F5`,enter your login data like before and install kitty:**
+**Warning!:If pressing `Super Key + Q` doesn't bring you to the terminal,press `CTRL + ALT + F5`,enter your login data like before and install kitty:**
 
 `sudo pacman -S kitty`
 
