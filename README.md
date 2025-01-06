@@ -1,8 +1,6 @@
 # Hyprland guide EndeavourOS (Arch)
 This is a guide for beginners to get through the hyprland setup easily! Normal arch may be hard for beginners so thats why im going to write about endeavouros,a distro based on arch
 
-
-**info:were going to use dotfiles of ml4w https://github.com/mylinuxforwork/dotfiles**
 # REQUIREMENTS:
 
 **USB-STICK**
@@ -85,8 +83,6 @@ Now open the terminal with `SUPER KEY + Q`
 
     `sudo pacman -S waybar`
 
-  3. Get the dotfiles
-
-    bash <(curl -s https://raw.githubusercontent.com/mylinuxforwork/dotfiles/main/setup-arch.sh)
-
-   go through the installation and you're done,enjoy!
+  3. Get any dotfiles of waybar,search for a command that has `curl` in it,copy that and paste it in your terminal. (the one I use is in https://github.com/mylinuxforwork/dotfiles)
+  
+  4. Go through the installation and you're done,enjoy!
