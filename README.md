@@ -1,5 +1,5 @@
 # Hyprland guide EndeavourOS (Arch)
-This is a guide for beginners to get through the hyprland setup easily! Normal arch may be hard for neginners so thats why im going to write about endeavouros a distro based on arch
+This is a guide for beginners to get through the hyprland setup easily! Normal arch may be hard for beginners so thats why im going to write about endeavouros a distro based on arch
 info:were going to use dotfiles of ml4w https://github.com/mylinuxforwork/dotfiles
 # REQUIREMENTS:
 
@@ -14,7 +14,7 @@ info:were going to use dotfiles of ml4w https://github.com/mylinuxforwork/dotfil
 **Online:4 GB**
 
 # Heads Up!
-In Linux,the Windows Key is called the "Super Key"
+If you didn't know,in Linux,the Windows Key is called the "Super Key"
 # EOS Installation
 
 **SKIP THIS IF YOU ALREADY HAVE THE DISTRO**
