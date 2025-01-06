@@ -17,7 +17,7 @@ info:were going to use dotfiles of ml4w https://github.com/mylinuxforwork/dotfil
 In Linux,the Windows Key is called the "Super Key"
 # EOS Installation
 
-**SKIP THIS IF YOU ALREADY HAVE ARCH OR EOS**
+**SKIP THIS IF YOU ALREADY HAVE THE DISTRO**
 
 
 First of all go to https://endeavouros.com/ and download the .iso for the country you live in,then you get your usb stick,plug it in your computer and flash the iso with balena etcher,rufus or something you like.
