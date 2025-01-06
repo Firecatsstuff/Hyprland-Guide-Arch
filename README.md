@@ -1,6 +1,8 @@
 # Hyprland guide EndeavourOS (Arch)
 This is a guide for beginners to get through the hyprland setup easily! Normal arch may be hard for beginners so thats why im going to write about endeavouros a distro based on arch
-info:were going to use dotfiles of ml4w https://github.com/mylinuxforwork/dotfiles
+
+
+**info:were going to use dotfiles of ml4w https://github.com/mylinuxforwork/dotfiles**
 # REQUIREMENTS:
 
 **USB-STICK**
