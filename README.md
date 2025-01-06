@@ -11,7 +11,7 @@ This is a guide for beginners to get through the hyprland setup easily! Normal a
 
 **Offline:3 GB RAM**
 
-**Online:4 GB**
+**Online:4 GB RAM**
 
 # Heads Up!
 If you didn't know,in Linux,the Windows Key is called the "Super Key"
