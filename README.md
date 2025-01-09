@@ -1,40 +1,23 @@
-# Hyprland guide EndeavourOS (Arch)
-This is a guide for beginners to get through the hyprland setup easily! Normal arch may be hard for beginners so thats why im going to write about endeavouros,a distro based on arch
+# Hyprland guide! (Arch)
+This is a guide for beginners to get through the hyprland setup easily!
 
-# REQUIREMENTS:
+# DE Removal
 
-**USB-STICK**
+First press `CTRL + ALT + F5` on your keyboard to get to the tty,whatever DE you have,remove it like this:
 
-**Free diskspace	15 GB**
+`sudo pacman -R [DE]`
 
-**Processor	64-bit Dual core Intel/AMD**
-
-**Offline:3 GB RAM**
-
-**Online:4 GB RAM**
-
-# Heads Up!
-If you didn't know,in Linux,the Windows Key is called the "Super Key"
-# EOS Installation
-
-**SKIP THIS IF YOU ALREADY HAVE THE DISTRO**
-
-
-First of all go to https://endeavouros.com/ and download the .iso for the country you live in,then you get your usb stick,plug it in your computer and flash the iso with balena etcher,rufus or something you like.
-
-If you flashed the iso you boot into firmware recovery,turn off secure boot to boot into eos.
-
-**Memorize your username and password in the setup because you will be needing that.**
-
-In the setup choose your keyboard layout etc. choose grub in bootloader options and if you get the question "What Desktop Enviroment?" make sure to pick none. Wait for eos to install then reboot at the end.
+**`[DE]` needs to be your desktop enviroments package name,I recommend searching up the package name for your DE**
 
 # Hyprland Installation
 
-
-Now you should see a terminal in your screen asking for as login,just enter your username and then your password.
 1. Get hyprland with this command
 
    `sudo pacman -S hyprland`
+
+2. Get the terminal (kitty)
+
+   `sudo pacman -S kitty`
 
 3. Get the greeter and activate it
 
@@ -42,7 +25,7 @@ Now you should see a terminal in your screen asking for as login,just enter your
 
    `sudo systemctl enable sddm`
 
-5. Go to hyprland
+4. Go to hyprland
 
    `hyprland`
 
@@ -52,23 +35,15 @@ Now you should see a terminal in your screen asking for as login,just enter your
 
 you should see a warning at the top with instructions how to get into the terminal.
 
-**Warning!:If pressing `Super Key + Q` doesn't bring you to the terminal,press `CTRL + ALT + F5`,enter your login data like before and install kitty:**
-
-`sudo pacman -S kitty`
-
-and then type in `hyprland` or `reboot` if that doesn't work.
-
-Now open the terminal with `SUPER KEY + Q` 
-
-1. Replace your .config to remove the warning
+2. Replace your .config to remove the warning
 
  `curl https://raw.githubusercontent.com/hyprwm/Hyprland/main/example/hyprland.conf -o ~/.config/hypr/hyprland.conf`
 
-1.5 Change your keyboard layout if it isn't US Qwerty
+2.5 Change your keyboard layout if it isn't US Qwerty
    
    `sudo nano ~/.config/hypr/hyprland.conf`
 
-   Click arrow down repeadetly till you see something like: 
+   Hold arrow down and stop if you see something like this: 
 
    #############
    ####INPUT####
@@ -77,12 +52,22 @@ Now open the terminal with `SUPER KEY + Q`
   layout=us
 
 
-  change us to your layout
+  Change `us` to your layout
 
-  2. Get Waybar
+  3. Get Waybar
 
     `sudo pacman -S waybar`
 
-  3. Get any dotfiles of waybar,search for a command that has `curl` in it,copy that and paste it in your terminal. (the one I use is in https://github.com/mylinuxforwork/dotfiles)
+  4. Get Wofi
+
+    `sudo pacman -S wofi
+
+  5. Get a clipboard (enter `CTRL + SHIFT + V` to patste things with it)
+
+    `sudo pacman -S wl-clipboard
   
-  4. Go through the installation and you're done,enjoy!
+  6. Enter `WIN + R` on your keyboard and open firefox using wofi
+  
+  7. Search for dotfiles of waybar that you really like,on the website follow the instructions given (I use the dotfiles of https://github.com/mylinuxforwork/dotfiles)
+
+**Go through the installation and you're done,enjoy!**
