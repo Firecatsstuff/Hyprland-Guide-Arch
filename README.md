@@ -62,7 +62,7 @@ you should see a warning at the top with instructions how to get into the termin
 
     `sudo pacman -S wofi
 
-  5. Get a clipboard (enter `CTRL + SHIFT + V` to patste things with it)
+  5. Get a clipboard (enter `CTRL + SHIFT + V` to patse things with it)
 
     `sudo pacman -S wl-clipboard
   
