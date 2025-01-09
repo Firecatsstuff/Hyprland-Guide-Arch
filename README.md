@@ -1,5 +1,5 @@
 # Hyprland guide! (Arch)
-This is a guide for beginners to get through the hyprland setup easily!
+This is a guide specially made for beginners to get through the hyprland setup easily!
 
 # DE Removal
 
