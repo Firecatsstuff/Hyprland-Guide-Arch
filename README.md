@@ -5,11 +5,18 @@ This is a guide specially made for beginners to get through the hyprland setup e
 
 **WARNING: This step is only needed if you want to switch to hyprland entirely**
 
+
+
+
 First press `CTRL + ALT + F5` on your keyboard to get to the tty,whatever DE you have,remove it like this:
 
 `sudo pacman -R [DE]`
 
 **`[DE]` needs to be your desktop enviroments package name,I recommend searching up the package name for your DE**
+
+
+
+
 
 # Hyprland Installation
 
@@ -21,27 +28,20 @@ First press `CTRL + ALT + F5` on your keyboard to get to the tty,whatever DE you
 
    `sudo pacman -S kitty`
 
-3. Get the greeter and activate it
-
-   `sudo pacman -S sddm`
-
-   `sudo systemctl enable sddm`
-
-4. Go to hyprland
+3. Go to hyprland
 
    `hyprland`
 
-   If that doesnt work just type `reboot` it should work afterwards
 # Configuring Hyprland
 
 
 you should see a warning at the top with instructions how to get into the terminal.
 
-2. Replace your .config to remove the warning
+1. Replace your .config to remove the warning
 
  `curl https://raw.githubusercontent.com/hyprwm/Hyprland/main/example/hyprland.conf -o ~/.config/hypr/hyprland.conf`
 
-2.5 Change your keyboard layout if it isn't US Qwerty
+1.5 Change your keyboard layout if it isn't US Qwerty
    
    `sudo nano ~/.config/hypr/hyprland.conf`
 
@@ -56,20 +56,20 @@ you should see a warning at the top with instructions how to get into the termin
 
   Change `us` to your layout
 
-  3. Get Waybar
+  2. Get Waybar
 
     `sudo pacman -S waybar`
 
-  4. Get Wofi
+  3. Get Wofi
 
     `sudo pacman -S wofi
 
-  5. Get a clipboard (enter `CTRL + SHIFT + V` to patse things with it)
+  4. Get a clipboard (enter `CTRL + SHIFT + V` to paste things with it)
 
     `sudo pacman -S wl-clipboard
   
-  6. Enter `WIN + R` on your keyboard and open firefox using wofi
+  5. Enter `WIN + R` on your keyboard and open firefox using wofi
   
-  7. Search for dotfiles of waybar that you really like,on the website follow the instructions given (I use the dotfiles of https://github.com/mylinuxforwork/dotfiles)
+  6. Search for dotfiles of waybar that you really like,on the website follow the instructions given (I use the dotfiles of https://github.com/mylinuxforwork/dotfiles)
 
 **Go through the installation and you're done,enjoy!**
