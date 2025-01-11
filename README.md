@@ -3,6 +3,8 @@ This is a guide specially made for beginners to get through the hyprland setup e
 
 # DE Removal
 
+**WARNING: This step is only needed if you want to switch to hyprland entirely**
+
 First press `CTRL + ALT + F5` on your keyboard to get to the tty,whatever DE you have,remove it like this:
 
 `sudo pacman -R [DE]`
