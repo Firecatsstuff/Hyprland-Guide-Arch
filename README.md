@@ -14,62 +14,26 @@ First press `CTRL + ALT + F5` on your keyboard to get to the tty,whatever DE you
 
 **`[DE]` needs to be your desktop enviroments package name,I recommend searching up the package name for your DE**
 
-
-
-
-
 # Hyprland Installation
 
-1. Get hyprland with this command
+1. Get hyprland and kitty with this command
 
-   `sudo pacman -S hyprland`
+   `sudo pacman -S hyprland kitty`
 
-2. Get the terminal (kitty)
-
-   `sudo pacman -S kitty`
-
-3. Go to hyprland
+2. Start Hyprland
 
    `hyprland`
 
 # Configuring Hyprland
 
+**Notice: Copying and pasting is `CTRL + SHIFT + C` and `CTRL + SHIFT + V`**
 
-you should see a warning at the top with instructions how to get into the terminal.
+You should see a warning at the top with instructions how to get into the terminal.
 
-1. Replace your .config to remove the warning
+1. Open the terminal by pressing `SUPER + Q`,then open firefox:
 
- `curl https://raw.githubusercontent.com/hyprwm/Hyprland/main/example/hyprland.conf -o ~/.config/hypr/hyprland.conf`
-
-1.5 Change your keyboard layout if it isn't US Qwerty
+   `firefox`
    
-   `sudo nano ~/.config/hypr/hyprland.conf`
-
-   Hold arrow down and stop if you see something like this: 
-
-   #############
-   ####INPUT####
-   #############
-
-  layout=us
-
-
-  Change `us` to your layout
-
-  2. Get Waybar
-
-    `sudo pacman -S waybar`
-
-  3. Get Wofi
-
-    `sudo pacman -S wofi
-
-  4. Get a clipboard (enter `CTRL + SHIFT + V` to paste things with it)
-
-    `sudo pacman -S wl-clipboard
-  
-  5. Enter `WIN + R` on your keyboard and open firefox using wofi
-  
-  6. Search for dotfiles of waybar that you really like,on the website follow the instructions given (I use the dotfiles of https://github.com/mylinuxforwork/dotfiles)
+2. Search for dotfiles of waybar that you really like in the internet,on the website follow the instructions given (I use the dotfiles in https://github.com/mylinuxforwork/dotfiles)
 
 **Go through the installation and you're done,enjoy!**
